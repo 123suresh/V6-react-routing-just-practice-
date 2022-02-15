@@ -1,0 +1,27 @@
+.POSTMethod{
+    text-align: center;
+    width: 130%;
+    text-align: center;
+    margin: auto;
+}
+.POSTMethod__one{
+    padding: 10px;
+}
+table, th, td {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+  }
+
+.APIRender{
+    text-align: center;
+}
+.apiRender-nav{
+    width:30%;
+    float: left;
+}
+.apiRender-outlet{
+    width: 70%;
+    float: left;
+    padding: 30px;
+}

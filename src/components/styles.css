@@ -1,0 +1,34 @@
+.ComponentRender{
+    text-align: center;
+}
+.component-nav-item:focus{
+    background-color: #db8787;
+}
+.component-nav-ul{
+    display: flex;
+    flex-direction: column;
+}
+.component-nav-width{
+    width:30%;
+    float: left;
+    background-color: rgb(167, 143, 143);
+}
+.component-outlet{
+    width: 70%;
+    float: left;
+    padding: 30px;
+}
+
+@media only screen and (max-width: 768px) {
+    .component-nav-width{
+        width: 100%;
+    }
+    .component-outlet{
+        width: 100%;
+    }
+  }
+
+  .add-number{
+
+    list-style-type: none;
+  }

@@ -1,0 +1,25 @@
+.EffectHookRender{
+    text-align: center;
+}
+.effectHookRender-nav{
+    width:40%;
+    float: left;
+}
+.effectHookRender-outlet{
+    width: 60%;
+    float: left;
+    padding: 30px;
+}
+
+@media only screen and (max-width: 768px) {
+    .effectHookRender-nav{
+        width: 100%;
+    }
+    .effectHookRender-outlet{
+        width: 100%;
+    }
+  }
+
+  .bg-light-col{
+    background-color: rgb(167, 143, 143);
+  }

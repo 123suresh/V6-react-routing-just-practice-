@@ -1,0 +1,51 @@
+.side-nav{
+    width: 100%;
+    text-align: center;
+}
+.main-routes{
+    width: 60%;
+    margin: auto;
+    float: left;
+}
+.side-nav ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+.side-nav ul li{
+    padding: 10px;
+    font-size: 15px;
+}
+.link{
+    text-decoration: none;
+}
+.login-form{
+    width: 400px;
+    margin: auto;
+    text-align: center;
+    margin-top: 200px;
+}
+.link-color{
+    color: #fff;
+}
+
+
+@media only screen and (max-width: 768px) {
+    .side-nav{
+        width: 100%;
+    }
+    .main-routes{
+        width: 100%;
+    }
+  }
+
+.link-color:focus{
+    background-color: gray;
+}
+
+.admin-nav-item:focus{
+    background-color: #db8787;
+}
+.admin-nav-item{
+    font-size: 20px;
+}
